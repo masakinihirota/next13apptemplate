@@ -8,13 +8,10 @@
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
-  "parserOptions":  {
+  "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": [
-    "import",
-    "@typescript-eslint"
-  ],
+  "plugins": ["import", "@typescript-eslint"],
   "root": true,
   "rules": {
     "import/order": [

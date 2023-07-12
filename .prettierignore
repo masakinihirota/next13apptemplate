@@ -16,3 +16,6 @@ coverage
 /build
 
 package-lock.json
+
+*.stories.ts
+*.stories.tsx
