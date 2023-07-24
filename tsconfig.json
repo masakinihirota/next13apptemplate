@@ -24,5 +24,6 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  // huskeyでsotriesファイルを除外する。
+  "exclude": ["node_modules","**/*.stories.ts"]
 }
