@@ -1,0 +1,22 @@
+# Ignore artifacts:
+build
+coverage
+
+# dotfile
+.env*
+
+# markdown
+*.md
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+*.stories.ts
+*.stories.tsx
+
+package-lock.json
+pnpm-lock.yaml

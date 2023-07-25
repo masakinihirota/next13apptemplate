@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "format": "prettier --write app/"
   },
   "dependencies": {
     "@types/node": "20.4.4",
@@ -33,7 +34,13 @@
     "@storybook/nextjs": "^7.1.1",
     "@storybook/react": "^7.1.1",
     "@storybook/testing-library": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-storybook": "^0.6.13",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
     "storybook": "^7.1.1"
   }
 }
