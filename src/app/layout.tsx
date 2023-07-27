@@ -1,5 +1,9 @@
+"use client";
+
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
+import { ThemeProvider } from "next-themes";
+import React from "react";
 
 import type { Metadata } from "next";
 
@@ -16,8 +20,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja" suppressHydrationWarning>
+      <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
