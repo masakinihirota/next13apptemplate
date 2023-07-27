@@ -18,6 +18,8 @@ const Home: NextPage = () => {
       <div>
         <Button>shadcn/ui の Button</Button>
       </div>
+      <br />
+      <Link href="./ModeTogglePage">ModeTogglePage</Link>
     </main>
   );
 };
