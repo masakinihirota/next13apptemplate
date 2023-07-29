@@ -1,3 +1,6 @@
+/**
+ * This file is intended to be used on the client side.
+ */
 "use client";
 
 import { Moon, Sun } from "lucide-react";
@@ -12,6 +15,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+/**
+ * テーマを切り替えるためのドロップダウンメニューを表示するコンポーネント。
+ * @module ModeToggle
+ * @return {JSX.Element} テーマを切り替えるためのドロップダウンメニューを含む React 要素。
+ */
 export default function ModeToggle() {
   const { setTheme } = useTheme();
 
