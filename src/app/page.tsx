@@ -4,6 +4,12 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 
+/**
+ * ホームページのコンポーネント。
+ * @module Home
+ * @return {JSX.Element} ホームページを含む React 要素。
+ * @example
+ */
 const Home: NextPage = () => {
   return (
     <main>
@@ -13,8 +19,7 @@ const Home: NextPage = () => {
         Next.js app router 開発用テンプレート (Storybook Supabase shadcn/ui)
       </div>
       <br />
-      {/* ↓この行を消すとimport文が自動削除されます。 */}
-      <Link href="/">Home</Link>
+      {/* ↓<Button>タグを消すと<Button>のimport文が自動削除されます。 */}
       <div>
         <Button>shadcn/ui の Button</Button>
       </div>
