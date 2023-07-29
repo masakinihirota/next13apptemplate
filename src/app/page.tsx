@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <main>
       {/* TailwindCSSのプロパティ値も自動整列されます。 */}
-      <h1 className="p-4 pt-2 text-red-300">VNS.BLUE</h1>
+      <h1 className="p-4 pt-2 text-blue-300">VNS.BLUE</h1>
       <div className="text-green-400">
         Next.js app router 開発用テンプレート (Storybook Supabase shadcn/ui)
       </div>
