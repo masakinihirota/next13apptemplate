@@ -2,6 +2,7 @@ Next.js app router 開発用テンプレート (Storybook Supabase shadcn/ui) - 
 
 https://qiita.com/masakinihirota/items/3ad7a1564d2b6c56d4db
 
-リポジトリ
+リポジトリをブラウザで開く
+gh browse
 
 ダークモードを追加
