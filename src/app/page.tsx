@@ -4,6 +4,14 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
+
 /**
  * ホームページのコンポーネント。
  * @module Home
