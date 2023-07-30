@@ -27,6 +27,20 @@ interface ButtonProps {
 /**
  * Primary UI component for user interaction
  */
+/**
+ * @typedef {Object} ButtonProps
+ * @property {boolean} [primary=false] - ページ上の主要なアクションかどうか
+ * @property {string} [backgroundColor] - 使用する背景色
+ * @property {"small" | "medium" | "large"} [size="medium"] - ボタンのサイズ
+ * @property {string} label - ボタンのラベル
+ * @property {function} [onClick] - クリックハンドラー
+ */
+
+/**
+ * ユーザーとのインタラクションのためのプライマリ UI コンポーネント
+ * @param {ButtonProps} props - ボタンのプロパティ
+ * @return {JSX.Element} - ボタンのJSX要素
+ */
 export const Button = ({
   primary = false,
   size = "medium",

@@ -18,3 +18,16 @@ package-lock.json
 # Storybook
 *.stories.ts
 *.stories.tsx
+
+# CSSファイル
+*.css
+
+# mdxファイル
+*.mdx
+
+# すべての画像ファイルを除外する
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.ico
