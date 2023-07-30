@@ -33,6 +33,12 @@ const Home: NextPage = () => {
       </div>
       <br />
       <Link href="./ModeTogglePage">ModeTogglePage</Link>
+      <br />
+      <Link href="/servercomponent">リンクボタン:サーバーコンポーネント</Link>
+      <br />
+      <Link href="/clientcomponent">
+        リンクボタン:クライアントコンポーネント
+      </Link>
     </main>
   );
 };
